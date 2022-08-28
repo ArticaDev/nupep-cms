@@ -1,0 +1,34 @@
+{
+  "name": "nupep_cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS for Nupep website",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "patch-admin": "node src/extensions/patch-admin.js && patch-package @strapi/admin",
+    "postinstall": "node src/extensions/patch-admin.js && patch-package @strapi/admin"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/strapi": "4.3.6",
+    "better-sqlite3": "7.4.6",
+    "patch-package": "^6.4.7"
+  },
+  "author": {
+    "name": "ArticaDev"
+  },
+  "strapi": {
+    "uuid": "df7ddfd2-0931-4d38-bb5b-591ee93a869a"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
