@@ -24,15 +24,20 @@
     "Email": {
       "type": "email"
     },
-    "Categoria": {
+    "Telefone": {
+      "type": "string"
+    },
+    "Sobre": {
+      "type": "richtext"
+    },
+    "Cargo": {
       "type": "enumeration",
       "enum": [
-        "Professores",
-        "Mestrado",
-        "Doutorado",
-        "IC"
-      ],
-      "default": "Professores"
+        "Professor",
+        "Aluno de Mestrado",
+        "Aluno de Doutorado",
+        "Aluno de IC"
+      ]
     }
   }
 }

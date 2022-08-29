@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-29T06:39:05.937Z"
+    "x-generation-date": "2022-08-29T18:00:34.036Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4673,13 +4673,19 @@
             "type": "string",
             "format": "email"
           },
-          "Categoria": {
+          "Telefone": {
+            "type": "string"
+          },
+          "Sobre": {
+            "type": "string"
+          },
+          "Cargo": {
             "type": "string",
             "enum": [
-              "Professores",
-              "Mestrado",
-              "Doutorado",
-              "IC"
+              "Professor",
+              "Aluno de Mestrado",
+              "Aluno de Doutorado",
+              "Aluno de IC"
             ]
           }
         }
