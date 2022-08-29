@@ -26,10 +26,10 @@
       "type": "enumeration",
       "enum": [
         "Não iniciado",
-        "Em andamento ",
+        "Em andamento",
         "Concluído"
       ],
-      "default": "Em andamento "
+      "default": "Em andamento"
     },
     "Natureza": {
       "type": "string"

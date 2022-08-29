@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-29T04:35:41.649Z"
+    "x-generation-date": "2022-08-29T06:39:05.937Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -28,7 +28,7 @@
   },
   "servers": [
     {
-      "url": "http://0.0.0.0:1337/api",
+      "url": "http://localhost:1337/api",
       "description": "Development server"
     }
   ],
@@ -1415,6 +1415,9 @@
           },
           "Ano": {
             "type": "integer"
+          },
+          "Autores": {
+            "type": "string"
           }
         }
       },
@@ -4669,6 +4672,15 @@
           "Email": {
             "type": "string",
             "format": "email"
+          },
+          "Categoria": {
+            "type": "string",
+            "enum": [
+              "Professores",
+              "Mestrado",
+              "Doutorado",
+              "IC"
+            ]
           }
         }
       },
@@ -6626,7 +6638,7 @@
             "type": "string",
             "enum": [
               "Não iniciado",
-              "Em andamento ",
+              "Em andamento",
               "Concluído"
             ]
           },
