@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_emails",
+  "info": {
+    "singularName": "contact-email",
+    "pluralName": "contact-emails",
+    "displayName": "Email para contato"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

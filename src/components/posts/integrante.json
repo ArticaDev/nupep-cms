@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_posts_integrantes",
+  "info": {
+    "displayName": "Integrante",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Lattes": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

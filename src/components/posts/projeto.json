@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_posts_projetos",
+  "info": {
+    "displayName": "Projeto",
+    "icon": "cogs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Resumo": {
+      "type": "richtext"
+    },
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Imagens": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Não iniciado",
+        "Em andamento ",
+        "Concluído"
+      ],
+      "default": "Em andamento "
+    },
+    "Natureza": {
+      "type": "string"
+    },
+    "Financiadores": {
+      "type": "string"
+    },
+    "Integrantes": {
+      "type": "string"
+    }
+  }
+}

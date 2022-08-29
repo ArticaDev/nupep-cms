@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Publicações",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Campos": {
+      "displayName": "Publicação",
+      "type": "component",
+      "repeatable": false,
+      "component": "posts.publicacao",
+      "required": true
+    }
+  }
+}
