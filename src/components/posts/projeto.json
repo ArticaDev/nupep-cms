@@ -39,6 +39,9 @@
     },
     "Integrantes": {
       "type": "string"
+    },
+    "Coordenador": {
+      "type": "string"
     }
   }
 }
