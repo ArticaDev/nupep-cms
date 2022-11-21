@@ -8,15 +8,12 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Campos": {
-      "displayName": "Publicação",
-      "type": "component",
-      "repeatable": false,
-      "component": "posts.publicacao",
+    "DOI": {
+      "type": "string",
       "required": true
     }
   }

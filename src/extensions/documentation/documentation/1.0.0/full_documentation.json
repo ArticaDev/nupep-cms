@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-11-21T04:22:51.716Z"
+    "x-generation-date": "2022-11-21T05:59:40.383Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1393,12 +1393,12 @@
         "properties": {
           "data": {
             "required": [
-              "Campos"
+              "DOI"
             ],
             "type": "object",
             "properties": {
-              "Campos": {
-                "$ref": "#/components/schemas/PostsPublicacaoComponent"
+              "DOI": {
+                "type": "string"
               }
             }
           }
@@ -1413,18 +1413,14 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Campos": {
-                "$ref": "#/components/schemas/PostsPublicacaoComponent"
+              "DOI": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -1726,18 +1722,14 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Campos": {
-                "$ref": "#/components/schemas/PostsPublicacaoComponent"
+              "DOI": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -2072,18 +2064,14 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Campos": {
-                "$ref": "#/components/schemas/PostsPublicacaoComponent"
+              "DOI": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -2385,18 +2373,14 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Campos": {
-                "$ref": "#/components/schemas/PostsPublicacaoComponent"
+              "DOI": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -2696,26 +2680,6 @@
           },
           "meta": {
             "type": "object"
-          }
-        }
-      },
-      "PostsPublicacaoComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string"
-          },
-          "Titulo": {
-            "type": "string"
-          },
-          "Referencia": {
-            "type": "string"
-          },
-          "Ano": {
-            "type": "integer"
-          },
-          "Autores": {
-            "type": "string"
           }
         }
       },
