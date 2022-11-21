@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "researches_and_developments",
+  "info": {
+    "singularName": "research-and-development",
+    "pluralName": "researches-and-developments",
+    "displayName": "Pesquisa e Desenvolvimento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Texto": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
