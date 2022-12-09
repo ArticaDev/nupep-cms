@@ -14,7 +14,22 @@
   "attributes": {
     "DOI": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "Titulo": {
+      "type": "string"
+    },
+    "Autores": {
+      "type": "string"
+    },
+    "Ano": {
+      "type": "string"
+    },
+    "Revista": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

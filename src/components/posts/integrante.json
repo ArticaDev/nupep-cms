@@ -33,6 +33,7 @@
     "Cargo": {
       "type": "enumeration",
       "enum": [
+        "Coordenador",
         "Professor",
         "Aluno de Mestrado",
         "Aluno de Doutorado",
