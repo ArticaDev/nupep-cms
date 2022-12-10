@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otherpubs",
+  "info": {
+    "singularName": "otherpub",
+    "pluralName": "otherpubs",
+    "displayName": "Teses/Dissertações",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Autores": {
+      "type": "string"
+    },
+    "Orientadores": {
+      "type": "string"
+    },
+    "Coordenador": {
+      "type": "string"
+    },
+    "Ano": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Tipo": {
+      "type": "enumeration",
+      "enum": [
+        "Tese",
+        "Dissertação"
+      ]
+    }
+  }
+}

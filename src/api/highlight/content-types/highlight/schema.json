@@ -4,7 +4,8 @@
   "info": {
     "singularName": "highlight",
     "pluralName": "highlights",
-    "displayName": "Destaques"
+    "displayName": "Destaques",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,16 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "Imagem": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Titulo": {
       "type": "string",
       "required": false
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

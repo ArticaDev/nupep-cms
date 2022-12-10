@@ -4,7 +4,8 @@
   "info": {
     "singularName": "member",
     "pluralName": "members",
-    "displayName": "Integrantes"
+    "displayName": "Integrantes",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
