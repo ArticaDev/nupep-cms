@@ -35,8 +35,9 @@
       "enum": [
         "Coordenador",
         "Professor",
+        "Professor Colaborador",
+        "Professor Estrangeiro",
         "Pós-doc",
-        "Colaborador",
         "Aluno de Mestrado",
         "Aluno de Doutorado",
         "Aluno de IC"
