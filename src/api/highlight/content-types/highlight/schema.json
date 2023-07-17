@@ -26,6 +26,9 @@
     },
     "Link": {
       "type": "string"
+    },
+    "Primeiro": {
+      "type": "boolean"
     }
   }
 }
