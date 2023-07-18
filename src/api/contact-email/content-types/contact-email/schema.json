@@ -4,16 +4,26 @@
   "info": {
     "singularName": "contact-email",
     "pluralName": "contact-emails",
-    "displayName": "Email para contato"
+    "displayName": "Email para contato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "Email": {
       "type": "email",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
