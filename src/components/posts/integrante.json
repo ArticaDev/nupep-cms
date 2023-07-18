@@ -41,6 +41,12 @@
         "Aluno de Doutorado",
         "Aluno de IC"
       ]
+    },
+    "OrcId": {
+      "type": "string"
+    },
+    "WebOfScience": {
+      "type": "string"
     }
   }
 }
