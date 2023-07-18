@@ -35,12 +35,17 @@
       "enum": [
         "Coordenador",
         "Professor",
+        "Professor Colaborador",
+        "Professor Estrangeiro",
         "Pós-doc",
-        "Colaborador",
         "Aluno de Mestrado",
         "Aluno de Doutorado",
-        "Aluno de IC"
+        "Aluno de IC",
+        "Egressos"
       ]
+    },
+    "AnoConclusaoDeCurso": {
+      "type": "string"
     }
   }
 }
