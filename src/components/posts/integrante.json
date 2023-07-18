@@ -46,6 +46,12 @@
     },
     "AnoConclusaoDeCurso": {
       "type": "string"
+    },
+    "OrcId": {
+      "type": "string"
+    },
+    "WebOfScience": {
+      "type": "string"
     }
   }
 }
