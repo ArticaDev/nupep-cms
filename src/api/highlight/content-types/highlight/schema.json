@@ -45,6 +45,14 @@
           "localized": true
         }
       }
+    },
+    "Primeiro": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }
