@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contato"
+    "displayName": "Contato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -13,7 +14,8 @@
   "attributes": {
     "Texto": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }

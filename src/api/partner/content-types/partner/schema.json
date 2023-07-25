@@ -4,7 +4,8 @@
   "info": {
     "singularName": "partner",
     "pluralName": "partners",
-    "displayName": "Parceiros"
+    "displayName": "Parceiros",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,15 +14,17 @@
   "attributes": {
     "Link": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      "pluginOptions": {}
     }
   }
 }

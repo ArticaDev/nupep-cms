@@ -14,22 +14,28 @@
   "attributes": {
     "DOI": {
       "type": "string",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "Titulo": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Autores": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Ano": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Revista": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Link": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     }
   }
 }

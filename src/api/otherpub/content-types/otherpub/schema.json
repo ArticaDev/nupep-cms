@@ -13,29 +13,36 @@
   "pluginOptions": {},
   "attributes": {
     "Titulo": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Autores": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Orientadores": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Coordenador": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Ano": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Link": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "Tipo": {
       "type": "enumeration",
       "enum": [
         "Tese",
         "Dissertação"
-      ]
+      ],
+      "pluginOptions": {}
     }
   }
 }
