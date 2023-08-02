@@ -46,13 +46,14 @@
         }
       }
     },
-    "Primeiro": {
+    "Ordem": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "boolean"
+      "type": "integer",
+      "default": 0
     }
   }
 }
